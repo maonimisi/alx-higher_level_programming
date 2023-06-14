@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 def uniq_add(my_list=[]):
+    if my_list is None:
+        return None
     new_list = []
     for elem in range(len(my_list)):
         if my_list[elem] not in new_list:
