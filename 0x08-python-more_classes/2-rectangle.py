@@ -43,7 +43,7 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
-        """set the height of the rectangle instance
+        """Set the height of the rectangle instance
 
         Args:
             value (int): the height of the rectangle instance
