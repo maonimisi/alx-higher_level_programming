@@ -3,10 +3,10 @@
 
 
 def write_file(filename="", text=""):
-    """Args:
-	text(str) to write to the file
-       Return:
-	returns the number of text written
+    """ Args:
+        text(str) to write to the file
+        Return:
+        returns the number of text written
     """
 
     with open(filename, 'w', encoding='UTF-8') as myfile:
