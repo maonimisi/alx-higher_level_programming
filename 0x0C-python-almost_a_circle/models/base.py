@@ -14,7 +14,7 @@ class Base:
         """Instantiation function for base Instance
 
         Args:
-       
+
         id(int): the id of the instance
         """
 
