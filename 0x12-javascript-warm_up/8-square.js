@@ -9,6 +9,6 @@ if (Number.isNaN(Number(firstArg))) {
   console.log('Missing size');
 } else {
   for (let i = 0; i < firstArg; i++) {
-    console.log('x'.repeat(firstArg));
+    console.log('X'.repeat(firstArg));
   }
 }
