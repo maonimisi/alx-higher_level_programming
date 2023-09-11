@@ -1,10 +1,9 @@
 #!/usr/bin/node
 
-// check number of argument passed
-const numArguments = process.argv.length - 2;
+const args = process.argv;
 
-if (numArguments === 0) {
-  console.log('No Argument');
-} else if (numArguments >= 1) {
-  console.log(process.argv[2]);
+if (args[2] === undefined) {
+  console.log('No argument');
+} else {
+  console.log(args[2]);
 }
