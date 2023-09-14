@@ -17,7 +17,8 @@ if __name__ == '__main__':
                          passwd=password, db=database) as db:
         with db.cursor() as cur:
             cur.execute("""SELECT cities.id, cities.name, states.name
-            FROM cities INNER JOIN states on cities.state_id = states.id""")
+            FROM cities INNER JOIN states on cities.state_id = states.id
+            ORDER BY id ASC""")
             cities = cur.fetchall()
             for city in cities:
                 print(city)
