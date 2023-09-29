@@ -10,9 +10,9 @@ import requests
 import urllib.parse
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     url = argv[1]
     email = {"email": argv[2]}
 
-    request = requests.post(url, email)
+    request = requests.post(url, data=email)
     print(request.text)
