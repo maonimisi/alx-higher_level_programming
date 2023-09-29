@@ -7,7 +7,6 @@ and finally displays the body of the response
 
 import sys
 import requests
-import urllib.parse
 
 
 if __name__ == "__main__":
