@@ -10,7 +10,7 @@ import requests
 if __name__ == "__main__":
     letter = "" if len(sys.argv) == 1 else sys.argv[1]
     url = "http://0.0.0.0:5000/search_user"
-    payload = {"q": letter}   
+    payload = {"q": letter}
     response = requests.post(url, data=payload)
     try:
         data = response.json()
