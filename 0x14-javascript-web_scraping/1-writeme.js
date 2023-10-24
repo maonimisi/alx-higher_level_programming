@@ -1,7 +1,7 @@
 #!/usr/bin/node
 // script that writes a string to a file
 
-const request = require('fs');
+const fs = require('fs');
 const oldFileName = process.argv[2];
 const newFileName = process.argv[3];
 
