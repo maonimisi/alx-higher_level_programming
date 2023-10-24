@@ -5,8 +5,8 @@ const request = require('fs');
 const oldFileName = process.argv[2];
 const newFileName = process.argv[3];
 
-request.writeFile(oldFileName, newFileName, 'utf-8', function(error) {
+request.writeFile(oldFileName, newFileName, 'utf-8', function (error) {
   if (error) {
     console.log(error);
-    }
+  }
 });
